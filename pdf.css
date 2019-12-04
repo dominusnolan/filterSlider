@@ -1,0 +1,103 @@
+.yellowSpan, .greenSpan, .redSpan, .sliderd {
+    display: none;
+}
+
+
+.vit img {
+zoom:0.7;
+}
+
+
+
+html {
+    overflow-y: scroll !important
+}
+
+p {
+    font-size: 12px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    color: #444;
+    font-family: Helvetica;
+    line-height: 25px;
+    font-weight: 400;
+    font-size:12px;
+    background: #fff;
+}
+
+table {
+    margin: 0px 0 25px;
+    width: 100%;
+    border-spacing:0px;
+        border-spacing:0;
+}
+
+.table-striped:before {
+content:"comparison by Financer.com";
+position:fixed;
+left:0;
+margin:auto;
+text-align:center;
+right:0%;
+top:0%;
+font-size:34px;
+color:#555;
+}
+
+td, th {
+    padding: 20px 5px 20px 5px;
+    vertical-align: middle;
+    text-align: center;
+}
+
+td {
+    border: 0px solid #f1f1f1;
+    font-size: 12px !important;
+        font-family: Helvetica;
+}
+
+tr.odd td {
+background:#f8f8f8;
+}
+
+tr.even td {
+background:#f1f1f1;
+}
+
+img {
+    padding: 0;
+    margin: 0
+}
+
+th {
+background: #555;
+color:#fff !important;
+    font-size: 15px;
+    height: 30px;
+    vertical-align: middle;
+    font-weight: 800;
+    border-spacing:0px;
+    border:0px #f1f1f1 solid;
+    outline:0px;
+    margin:0px;
+}
+
+.true:before {
+content: "Yes";
+}
+
+.false:before {
+content: "No";
+}
+
+p.true, p.false {
+margin:0px;
+padding:0px;
+}
+
+a {
+text-decoration:none;
+}

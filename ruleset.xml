@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<ruleset name="Financer">
+    <rule ref="WordPress-Core">
+        <exclude name="WordPress.Files.FileName"/>
+        <exclude name="WordPress.NamingConventions.ValidFunctionName"/>
+        <exclude name="WordPress.Arrays.ArrayDeclaration"/>
+        <exclude name="Generic.Files.LowercasedFilename"/>
+    </rule>
+</ruleset>
